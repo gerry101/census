@@ -10,7 +10,7 @@ const Leaderboard = ({ users }) => {
             <img src={user.avatarURL} alt={`Avatar for ${user.name}`} />
 
             <div>
-              <p>{user.name}</p>
+              <h1>{user.name}</h1>
               <p>{user.polls} Polls</p>
               <p>{user.answers} Answers</p>
             </div>
